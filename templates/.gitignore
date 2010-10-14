@@ -1,0 +1,36 @@
+# Boring files
+# ============
+*~
+.#*
+DEADJOE
+
+# Rails
+# =====
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
+
+# Vendor
+vendor/cache
+vendor/bundle
+
+# Volatile
+doc/api
+public/stylesheets/all.css
+
+# Backup
+db/backup
+
+# Local
+config/database.yml
+
+# compass
+public/stylesheets/compiled
+
+# RVM
+.rvmrc
+
+# Rubymine
+.idea/*public/stylesheets/compiled/*
+.idea/
