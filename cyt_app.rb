@@ -1,3 +1,4 @@
+# Cleanup
 run "rm README"
 
 run "rm public/index.html"
@@ -5,10 +6,14 @@ run "rm public/index.html"
 run "cp templates/Gemfile"
 run "cp templates/.gitignore"
 
+# Authorization
 generate "devise:install"
 generate "devise", "User"
-
+cp "templates/app/views/devise" "app/views/devise"
 rake "db:migrate"
-cp "templates/simple_navigation.rb" "config/initializers/simple_navigation.rb"
 
+# Navigation
+cp "templates/config/initializers/simple_navigation.rb" "config/initializers/simple_navigation.rb"
+
+# Styling
 generate "styleyt:theme"
