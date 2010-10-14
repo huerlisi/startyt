@@ -10,3 +10,5 @@ generate "devise", "User"
 
 rake "db:migrate"
 cp "templates/simple_navigation.rb" "config/initializers/simple_navigation.rb"
+
+generate "styleyt:theme"
