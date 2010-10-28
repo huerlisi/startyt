@@ -17,3 +17,10 @@ copy_file "templates/config/initializers/simple_navigation.rb", "config/initiali
 
 # Styling
 generate "styleyt:theme"
+
+# Testing
+generate "rspec:install"
+
+# Formtastic
+generate "formtastic:install"
+copy_file "templates/config/initializers/formtastic.rb", "config/initializers/formtastic.rb"
