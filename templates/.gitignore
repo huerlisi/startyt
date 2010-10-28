@@ -17,6 +17,7 @@ vendor/bundle
 
 # Volatile
 doc/api
+doc/app
 public/stylesheets/all.css
 
 # Backup
@@ -25,12 +26,18 @@ db/backup
 # Local
 config/database.yml
 
-# compass
-public/stylesheets/compiled
-
+# Development
+# ===========
 # RVM
 .rvmrc
 
 # Rubymine
-.idea/*public/stylesheets/compiled/*
-.idea/
+.idea
+
+# Plugins 
+# ======= 
+# compass
+public/stylesheets/compiled
+
+# paperclip
+public/system
