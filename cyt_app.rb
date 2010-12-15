@@ -1,10 +1,11 @@
 # Cleanup
-run "rm README"
+remove_file "README"
+template "templates/README.textile", "README.textile"
 
 run "rm public/index.html"
 
 copy_file "templates/Gemfile", "Gemfile"
-run "cp templates/.gitignore"
+copy_file "templates/.gitignore", ".gitignore"
 
 # Authorization
 generate "devise:install"
