@@ -10,5 +10,6 @@ class WelcomeController < ApplicationController
     end
 
     # Here comes app specific dispatch
+    redirect_to welcome_home_path 
   end
 end
