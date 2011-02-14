@@ -4,7 +4,7 @@ source 'http://rubygems.org'
 
 # Rails
 # =====
-gem 'rails', '3.0.0'
+gem 'rails', '~> 3.0.0'
 
 # Database
 gem 'sqlite3-ruby', :require => 'sqlite3'
@@ -13,7 +13,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # ===========
 group :development do
   gem 'rails3-generators'
-  gem 'rspec-rails', ">= 2.0.0.beta.19"
+  gem 'rspec-rails', "~> 2.1"
   # Haml generators
   gem 'hpricot'
   gem 'ruby_parser'
@@ -23,8 +23,7 @@ end
 # Test
 # ====
 group :test do
-  gem 'rspec'
-  gem 'rspec-rails', ">= 2.0.0.beta.19"
+  gem 'rspec-rails', "~> 2.1"
   gem 'mocha'
   gem 'shoulda'
   gem 'factory_girl_rails'
@@ -36,7 +35,7 @@ end
 # Standard helpers
 # ================
 gem 'haml'
-gem 'compass', '>= 0.10.4'
+gem 'compass', '~> 0.10.6'
 gem 'fancy-buttons'
 
 gem 'simple-navigation'
@@ -45,7 +44,7 @@ gem 'formtastic', '~> 1.1.0'
 gem 'will_paginate', :git => 'http://github.com/mislav/will_paginate.git', :branch => 'rails3'
 gem 'inherited_resources'
 gem 'has_scope'
-gem 'i18n_rails_helpers', '~> 0.8.0'
+gem 'i18n_rails_helpers', '~> 0.9'
 
 gem 'jquery-rails'
 
