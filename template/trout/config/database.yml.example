@@ -30,7 +30,7 @@ mysql: &mysql
   host:     localhost
   username: REPLACE WITH USERNAME
   password: REPLACE WITH PWD
-  encoding: utf8 
+  encoding: utf8
 
 # Environments
 # ============
