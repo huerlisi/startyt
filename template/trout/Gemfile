@@ -48,3 +48,12 @@ gem 'has_scope'
 gem 'i18n_rails_helpers', '~> 0.8.0'
 
 gem 'jquery-rails'
+
+# Authentication
+gem 'devise', '~> 1.1'
+
+# Authorization
+gem 'cancan'
+
+# Date/Time handling
+gem 'validates_timeliness', '~> 3.0.0'
