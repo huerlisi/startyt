@@ -10,7 +10,7 @@ SimpleNavigation::Configuration.run do |navigation|
 #        user.item :new_user, t_action(:new, User), new_user_path, :if => lambda { can?(:new, User) }
 #       user.item :user_index, t_action(:index, User), users_path, :if => lambda { can?(:index, User) }
 #       user.item :current_user, t_title(:current, User), current_users_path
-      end
+#      end
     end
   end
 end
