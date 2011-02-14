@@ -40,7 +40,9 @@ gem 'fancy-buttons'
 
 gem 'simple-navigation'
 
+# Styling
 gem 'lyb_sidebar'
+gem 'styleyt'
 
 # Form framework
 gem 'formtastic', '~> 1.2.1'
