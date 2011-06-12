@@ -27,13 +27,27 @@ end
 # Test
 # ====
 group :test do
-  gem 'rspec-rails', "~> 2.1"
-  gem 'mocha'
-  gem 'shoulda'
+  # Framework
+  # gem "rspec"
+  # gem 'rspec-rails'
+
+  # Mocking
+  # gem 'mocha'
+
+  # Fixtures
   gem 'factory_girl_rails'
-  gem 'cucumber-rails'
-  gem 'cucumber'
-  gem 'webrat'
+
+  # Matchers/Helpers
+  gem 'shoulda'
+
+  # Integration
+  # gem 'cucumber-rails'
+  # gem 'cucumber'
+  # gem 'webrat'
+
+  # Autotest
+  gem 'autotest'
+  gem 'autotest-rails'
 end
 
 # Standard helpers
