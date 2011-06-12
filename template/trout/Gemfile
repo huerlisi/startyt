@@ -14,7 +14,8 @@ gem 'sqlite3'
 # ===========
 group :development do
   gem 'rails3-generators'
-  gem 'rspec-rails', "~> 2.1"
+  gem 'rspec-rails'
+
   # Haml generators
   gem 'hpricot'
   gem 'ruby_parser'
@@ -54,7 +55,7 @@ end
 # Standard helpers
 # ================
 gem 'haml'
-gem 'compass', '~> 0.10.6'
+gem 'compass'
 gem 'fancy-buttons'
 
 # Navigation
@@ -65,25 +66,25 @@ gem 'lyb_sidebar'
 gem 'styleyt'
 
 # Form framework
-gem 'formtastic', '~> 1.2.1'
+gem 'formtastic'
 
 # CRUD
 gem 'will_paginate', :git => 'git://github.com/huerlisi/will_paginate.git', :branch => 'rails3'
 gem 'inherited_resources'
 gem 'has_scope'
-gem 'i18n_rails_helpers', '~> 0.9'
+gem 'i18n_rails_helpers'
 
 # Javascript
 gem 'jquery-rails'
 
 # Authentication
-gem 'devise', '~> 1.1'
+gem 'devise'
 
 # Authorization
 gem 'cancan'
 
 # Date/Time handling
-gem 'validates_timeliness', '~> 3.0.0'
+gem 'validates_timeliness'
 
 # Monitoring
 group :production do
