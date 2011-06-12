@@ -42,6 +42,7 @@ gem 'haml'
 gem 'compass', '~> 0.10.6'
 gem 'fancy-buttons'
 
+# Navigation
 gem 'simple-navigation'
 
 # Styling
@@ -51,11 +52,13 @@ gem 'styleyt'
 # Form framework
 gem 'formtastic', '~> 1.2.1'
 
+# CRUD
 gem 'will_paginate', :git => 'git://github.com/huerlisi/will_paginate.git', :branch => 'rails3'
 gem 'inherited_resources'
 gem 'has_scope'
 gem 'i18n_rails_helpers', '~> 0.9'
 
+# Javascript
 gem 'jquery-rails'
 
 group :production do
