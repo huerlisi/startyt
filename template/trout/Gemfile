@@ -61,10 +61,6 @@ gem 'i18n_rails_helpers', '~> 0.9'
 # Javascript
 gem 'jquery-rails'
 
-group :production do
-  gem 'rack-google_analytics', :require => "rack/google_analytics", :git => 'git://github.com/ambethia/rack-google_analytics.git'
-end
-
 # Authentication
 gem 'devise', '~> 1.1'
 
@@ -73,3 +69,8 @@ gem 'cancan'
 
 # Date/Time handling
 gem 'validates_timeliness', '~> 3.0.0'
+
+# Monitoring
+group :production do
+  gem 'rack-google_analytics', :require => "rack/google_analytics", :git => 'git://github.com/ambethia/rack-google_analytics.git'
+end
