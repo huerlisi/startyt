@@ -35,8 +35,8 @@ end
 
 group :test, :development do
   # Framework
-  # gem "rspec"
-  # gem 'rspec-rails'
+  gem "rspec"
+  gem 'rspec-rails'
 
   # Mocking
   # gem 'mocha'
