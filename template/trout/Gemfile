@@ -13,8 +13,6 @@ gem 'sqlite3'
 # Development
 # ===========
 group :development do
-  gem 'rspec-rails'
-
   # Haml generators
   gem 'hpricot'
   gem 'ruby_parser'
@@ -26,7 +24,7 @@ end
 
 # Test
 # ====
-group :test do
+group :test, :development do
   # Framework
   # gem "rspec"
   # gem 'rspec-rails'
