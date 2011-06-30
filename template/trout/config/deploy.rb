@@ -1,4 +1,4 @@
-#Application
+# Application
 set :application, "offer_on_web"
 set :repository,  "git@github.com:huerlisi/offer_on_web.git"
 
