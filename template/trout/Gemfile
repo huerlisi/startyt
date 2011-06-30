@@ -24,6 +24,15 @@ end
 
 # Test
 # ====
+group :test do
+  # Matchers/Helpers
+  gem 'shoulda'
+
+  # Autotest
+  gem 'autotest'
+  gem 'autotest-rails'
+end
+
 group :test, :development do
   # Framework
   # gem "rspec"
@@ -36,17 +45,10 @@ group :test, :development do
   gem "factory_girl_rails", "~> 1.1.beta"
   gem "factory_girl", "~> 2.0.0.beta"
 
-  # Matchers/Helpers
-  gem 'shoulda'
-
   # Integration
   # gem 'cucumber-rails'
   # gem 'cucumber'
   # gem 'webrat'
-
-  # Autotest
-  gem 'autotest'
-  gem 'autotest-rails'
 end
 
 # Standard helpers
