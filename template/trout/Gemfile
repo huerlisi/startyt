@@ -19,6 +19,7 @@ group :development do
 
   # Capistrano
   gem 'capistrano'
+  gem 'capistrano-ext'
   gem 'cap-recipes'
 end
 
