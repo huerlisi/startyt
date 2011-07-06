@@ -32,6 +32,9 @@ group :test do
   # Mocking
   # gem 'mocha'
 
+  # Browser
+  gem 'capybara'
+
   # Autotest
   gem 'autotest'
   gem 'autotest-rails'
@@ -49,7 +52,6 @@ group :test, :development do
   # Integration
   # gem 'cucumber-rails'
   # gem 'cucumber'
-  # gem 'webrat'
 end
 
 # Standard helpers
