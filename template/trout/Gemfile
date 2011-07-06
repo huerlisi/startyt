@@ -29,6 +29,9 @@ group :test do
   # Matchers/Helpers
   gem 'shoulda'
 
+  # Mocking
+  # gem 'mocha'
+
   # Autotest
   gem 'autotest'
   gem 'autotest-rails'
@@ -38,9 +41,6 @@ group :test, :development do
   # Framework
   gem "rspec"
   gem 'rspec-rails'
-
-  # Mocking
-  # gem 'mocha'
 
   # Fixtures
   gem "factory_girl_rails", "~> 1.1.rc1"
